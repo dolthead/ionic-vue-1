@@ -6,9 +6,11 @@
 
 <script>
 import CreateMemoryForm from '../components/memories/CreateMemoryForm.vue';
+import BaseLayout from '../components/base/BaseLayout.vue';
 
 export default {
   components: {
+    BaseLayout,
     CreateMemoryForm
   },
 

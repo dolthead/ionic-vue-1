@@ -13,12 +13,14 @@
 import MemoriesList from "../components/memories/MemoriesList.vue";
 import { IonButton, IonIcon } from '@ionic/vue';
 import { add } from 'ionicons/icons';
+import { BaseLayout } from "../components/base/BaseLayout.vue";
 
 export default {
   components: {
     MemoriesList,
     IonButton,
-    IonIcon
+    IonIcon,
+    BaseLayout,
   },
 
   data() {

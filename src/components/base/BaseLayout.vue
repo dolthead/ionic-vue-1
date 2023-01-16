@@ -28,6 +28,7 @@ import {
   IonContent,
   IonBackButton,
   IonButtons,
+  IonList,
 } from "@ionic/vue";
 
 export default {
@@ -41,6 +42,7 @@ export default {
     IonContent,
     IonBackButton,
     IonButtons,
+    IonList,
   },
 };
 </script>
